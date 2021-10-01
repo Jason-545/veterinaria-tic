@@ -1,0 +1,61 @@
+/* #4AAA9C
+    358B88
+    276462
+    959394 */
+
+/* ALL */
+*{margin: 0;padding: 0;font-family: 'Poppins';}
+body{box-sizing: border-box;}
+.icon{font-size: 22px;}
+li{list-style: none;}
+.logo-img{width: 120px;}
+.active{color: #4AAA9C; font-weight: 600;}
+.h-77{height: 77px;max-height: 78px;}
+.link{text-decoration: none;}
+.small{font-size: 14px; color: white; font-weight: 200;}
+
+/* NAVBAR */
+header{
+    width: 100%;
+    height: 77px;
+    max-height: 78px;
+    overflow: hidden;
+    box-shadow: 2px 2px 15px #ddd;
+}
+
+navbar{
+    width: 100%;
+}
+
+.nav-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 77px;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 40px;
+}
+
+.nav-content ul {
+    flex-basis: 65%;
+}
+
+.nav-content .personal-content{
+    background-color: #276462;
+    height: 77px;
+    width: 184px;
+    color: white;
+}
+
+li{
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+li a{
+    color: #121212;
+    font-size: 15px;
+}
