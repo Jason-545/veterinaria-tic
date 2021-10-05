@@ -19,7 +19,10 @@
 </head>
 
 <body>
-    <h1>Registro de Clientes</h1>
+    <h1>
+        <p class="text-info">Registro Cliente Nuevo</p>
+    </h1>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -31,66 +34,96 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
 
-
-
+     ​
     <form>
 
-        <div class="container-fluid row">
-            <div class="row" style="max-with:400px; margin-right:20px">
-                <div class="col-sm">
-                    <div class="form-group">
-                        <label for="formGroupExampleInput">Nombre Dueño Mascota(s)</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput"
-                            placeholder="Example input placeholder">
-                    </div>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput2">Direccion de Residencia</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2"
-                            placeholder="Another input placeholder">
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="max-with:400px; margin-right:20px">
-                <div class="col-sm">
-                    <div class="form-group">
-                        <label for="formGroupExampleInput">Telefono</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput"
-                            placeholder="Example input placeholder">
-                    </div>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput2">Correo electronico</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2"
-                            placeholder="Another input placeholder">
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="max-with:400px; margin-right:20px">
-                <div class="col-sm">
-                    <div class="form-group">
-                        <label for="formGroupExampleInput">Nombre mascota</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput"
-                            placeholder="Example input placeholder">
-                    </div>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput2">Especie</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2"
-                            placeholder="Another input placeholder">
-                    </div>
-                </div>
+        <h4>
+            <p class="text-info">Datos del dueño de la mascota(s)</p>
+        </h4>
+        <div class="float-right">
+            <img src="https://cdn.pixabay.com/photo/2021/01/30/15/15/dog-5964181_960_720.jpg"
+                class=" rounded float-right"
 
-            </div>
+                alt="https://cdn.pixabay.com/photo/2021/01/30/15/15/dog-5964181_960_720.jpg">
         </div>
-
-        <div class="col-sm" style="max-with:400px; margin-right:20px">
-            <select class="form-control">
-            <option>Op1</option>
-            <option>Op2</option>
-            <option>Op3</option>
-            <option>Op4</option>
-        </select>
-
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Nombre Dueño Mascota(s)</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput"
+                        placeholder="Ingrese el nombre completo">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Numero de Documento</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                        placeholder="Ingrese el numero de Documento">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Direccion</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                        placeholder="Direccion de residencia">
+                </div>
+            </div>
         </div>
         
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Telefono</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput"
+                        placeholder="Ingrese el Telefono de contacto">
+                </div>
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Correo electronico</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                        placeholder="Ingrese el correo electronico de contacto">
+                </div>
+            </div>
+        </div>
+
+    </form>
+
+    <h4>
+        <p class="text-info"> Datos de la Mascota</p>
+    </h4>
+
+    <form>
+        <div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Nombre mascota</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                placeholder="Como se llama su mascota?">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Nombre mascota</label>
+                            <select class="custom-select">
+                                <option selected>Selecciona Tipo de Mascota</option>
+                                <option value="1">Perro</option>
+                                <option value="2">Gato</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">Genero</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2"
+                                placeholder="Su mascota es macho o hembra?">
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
 
 
 
