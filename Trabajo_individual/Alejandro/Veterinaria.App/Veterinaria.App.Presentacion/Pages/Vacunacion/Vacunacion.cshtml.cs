@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Veterinaria.App.Presentacion
+namespace Veterinaria.App.Presentacion.Pages
 {
     public class VacunacionModel : PageModel
     {
