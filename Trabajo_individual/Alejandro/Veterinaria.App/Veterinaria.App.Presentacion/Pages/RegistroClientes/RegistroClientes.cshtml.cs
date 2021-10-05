@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Veterinaria.App.Pages
+namespace Veterinaria.App.Presentacion
 {
-    public class LoginClienteModel : PageModel
+    public class RegistroClientesModel : PageModel
     {
         public void OnGet()
         {
