@@ -74,6 +74,5 @@ C:\Users\Pablo\veterinaria-tic\Trabajo_individual\Alejandro\Veterinaria.App\Vete
 C:\Users\Pablo\veterinaria-tic\Trabajo_individual\Alejandro\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Veterinaria.App.Presentacion.pdb
 C:\Users\Pablo\veterinaria-tic\Trabajo_individual\Alejandro\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Veterinaria.App.Presentacion.genruntimeconfig.cache
 C:\Users\Pablo\veterinaria-tic\Trabajo_individual\Alejandro\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Veterinaria.App.Presentacion.csproj.CopyComplete
-C:\Users\Pablo\veterinaria-tic\Trabajo_individual\Alejandro\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Login\Pages\Login\LoginCliente.cshtml.g.cs
-C:\Users\Pablo\veterinaria-tic\Trabajo_individual\Alejandro\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CitasMedicas.cshtml.g.cs
 C:\Users\Pablo\veterinaria-tic\Trabajo_individual\Alejandro\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vacunacion.cshtml.g.cs
+C:\Users\Pablo\veterinaria-tic\Trabajo_individual\Alejandro\Veterinaria.App\Veterinaria.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\LoginCliente\LoginCliente.cshtml.g.cs
