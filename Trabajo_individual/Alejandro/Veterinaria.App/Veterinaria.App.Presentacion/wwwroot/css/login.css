@@ -1,0 +1,16 @@
+
+.menu {
+    align-content: center;
+    position: fixed;
+    z-index: 1;    
+}
+
+.imagen {
+    position: relative;
+    height: 200px;
+    width: auto;
+    left: -50%;
+    bottom: 41 px;
+    z-index: 0;    
+}
+
