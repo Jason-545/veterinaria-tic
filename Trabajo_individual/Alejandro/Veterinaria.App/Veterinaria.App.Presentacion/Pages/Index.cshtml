@@ -1,43 +1,125 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+  ViewData["Title"] = "Home page";
 }
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style>
+  body,
+  html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url(.././images/background2.jpg) no-repeat center center fixed;
+    min-height: 100%;
+    background-size: cover;
+  }
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+  .textbox-main {
+    color: #fff;
+    background-color: #1fa999;
+    border-color: #1fa999;
+  }
 
-    <!-- Optional JavaScript; choose one of the two! -->
+  .menu-borde {
+    border-color: #1fa999;
+  }
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  background-textbox {
+    background-color: #1fa999;
+  }
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-    -->
-  </body>
-</html>
+  shadow-tytle {
+    text-shadow: #fff 1px 0 10px;
 
-
+  }
+</style>
 
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+
+
+
+  <!-- Custom styles for this template -->
+  <link href="pricing.css" rel="stylesheet">
+
+
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="check" viewBox="0 0 16 16">
+      <title>Check</title>
+      <path
+        d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+    </symbol>
+  </svg>
+
+  <div class="container py-3">"
+    <div class="container" style="height: 150px;">
+
+      <h1 class="text-muted" style="text-align: left;">Trabajamos contigo</h1>
+      <h1 class="text-muted" style="text-align: left;">por la salud de tu mascota..</h1>
+    </div>
+
+
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm menu-borde">
+            <div class="card-header py-3 textbox-main">
+              <h4 class="my-0 fw-normal">Plan de Vacunación</h4>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title pricing-card-title">Protege a tu mascota!</h2>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Conoce mas de nuestros </li>
+                <li>planes de vacunación y ponte</li>
+                <li>al dia con las vacunas de tu mascota</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg textbox-main">Conoce más</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm menu-borde">
+            <div class="card-header py-3 textbox-main">
+              <h4 class="my-0 fw-normal">Citas médicas</h4>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title pricing-card-title">Con los mejores especialistas</h2>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Solicita y agenda de manera rapida</li>
+                <li>y segura una cita para la evaluación</li>
+                <li>diagnostica gratuita de tu mascóta</li>                
+              </ul>
+              <button type="button" class="w-100 btn btn-lg textbox-main">Agenda ahora</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm menu-borde">
+            <div class="card-header py-3 textbox-main">
+              <h4 class="my-0 fw-normal">Trabaja con nosotros</h4>
+            </div>
+            <div class="card-body">
+              <h2 class="card-title pricing-card-title">El mejor lugar para trabajar</h2>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Contamos con expertos en todas las areas</li>
+                <li>Oportunidad de crecimiento</li>
+                <li>Capacitacion continua</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg textbox-main">Contactanos</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
