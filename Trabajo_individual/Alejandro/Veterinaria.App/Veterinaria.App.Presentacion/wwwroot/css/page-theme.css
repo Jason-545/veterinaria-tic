@@ -1,0 +1,25 @@
+
+  .textbox-main {
+    color: #fff;
+    background-color: #1fa999;
+    border-color: #1fa999;
+  }
+
+  .menu-borde {
+    border-color: #1fa999;
+  }
+
+  background-textbox {
+    background-color: #1fa999;
+  }
+
+  shadow-tytle {
+    text-shadow: #fff 1px 0 10px;
+
+  }
+
+  .titulos-pagina{
+    height: 150px;
+    position: relative;
+    top: 50px;
+  }
