@@ -7249,8 +7249,8 @@
     },
     "Veterinaria.App.Dominio/1.0.0": {
       "type": "project",
-      "path": "../Veterinaria.App.Dominio/Veterinaria.App.Dominio.csproj",
-      "msbuildProject": "../Veterinaria.App.Dominio/Veterinaria.App.Dominio.csproj"
+      "path": "../Veterinaria.app.Dominio/Veterinaria.App.Dominio.csproj",
+      "msbuildProject": "../Veterinaria.app.Dominio/Veterinaria.App.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7293,8 +7293,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\Users\\jhona\\Documents\\Universidad\\mintic\\Ciclo 3\\Veterinaria.App\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\jhona\\Documents\\Universidad\\mintic\\Ciclo 3\\Veterinaria.App\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj"
+            "C:\\Users\\jhona\\Documents\\Universidad\\mintic\\Ciclo 3\\Veterinaria.App\\Veterinaria.app.Dominio\\Veterinaria.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\jhona\\Documents\\Universidad\\mintic\\Ciclo 3\\Veterinaria.App\\Veterinaria.app.Dominio\\Veterinaria.App.Dominio.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jhona\\Documents\\Universidad\\mintic\\Ciclo 3\\Veterinaria.App\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj": {}
+    "C:\\Users\\jhona\\Documents\\Universidad\\mintic\\Ciclo 3\\Veterinaria.App\\Veterinaria.app.Dominio\\Veterinaria.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jhona\\Documents\\Universidad\\mintic\\Ciclo 3\\Veterinaria.App\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj": {
+    "C:\\Users\\jhona\\Documents\\Universidad\\mintic\\Ciclo 3\\Veterinaria.App\\Veterinaria.app.Dominio\\Veterinaria.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhona\\Documents\\Universidad\\mintic\\Ciclo 3\\Veterinaria.App\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\jhona\\Documents\\Universidad\\mintic\\Ciclo 3\\Veterinaria.App\\Veterinaria.app.Dominio\\Veterinaria.App.Dominio.csproj",
         "projectName": "Veterinaria.App.Dominio",
-        "projectPath": "C:\\Users\\jhona\\Documents\\Universidad\\mintic\\Ciclo 3\\Veterinaria.App\\Veterinaria.App.Dominio\\Veterinaria.App.Dominio.csproj",
+        "projectPath": "C:\\Users\\jhona\\Documents\\Universidad\\mintic\\Ciclo 3\\Veterinaria.App\\Veterinaria.app.Dominio\\Veterinaria.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\jhona\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhona\\Documents\\Universidad\\mintic\\Ciclo 3\\Veterinaria.App\\Veterinaria.App.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\jhona\\Documents\\Universidad\\mintic\\Ciclo 3\\Veterinaria.App\\Veterinaria.app.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

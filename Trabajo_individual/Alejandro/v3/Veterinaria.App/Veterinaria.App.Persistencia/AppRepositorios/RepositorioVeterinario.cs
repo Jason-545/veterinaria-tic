@@ -28,9 +28,15 @@ namespace Veterinaria.App.Persistencia{
             var veterinarioEncontrado = this.appContext.Veterinarios.FirstOrDefault ( p => p.Id == veterinarioNuevo.Id);
 
             if(veterinarioEncontrado != null){
+                veterinarioEncontrado.TipoDocumento = veterinarioNuevo.TipoDocumento;
+                veterinarioEncontrado.NumeroDocumento = veterinarioNuevo.NumeroDocumento;
                 veterinarioEncontrado.Nombre = veterinarioNuevo.Nombre;
                 veterinarioEncontrado.Telefono = veterinarioNuevo.Telefono;
                 veterinarioEncontrado.Edad = veterinarioNuevo.Edad;
+                veterinarioEncontrado.Correo = veterinarioNuevo.Correo;
+                veterinarioEncontrado.Contraseña = veterinarioNuevo.Contraseña;
+                veterinarioEncontrado.FechaRegistro = veterinarioNuevo.FechaRegistro;
+                veterinarioEncontrado.TarjetaProfesional = veterinarioNuevo.TarjetaProfesional;
                 this.appContext.SaveChanges();
                 return veterinarioEncontrado;
             }else{

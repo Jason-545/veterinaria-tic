@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Veterinaria.App.Persistencia.Migrations
 {
-    public partial class Initial : Migration
+    public partial class Init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -50,8 +50,10 @@ namespace Veterinaria.App.Persistencia.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     NombreMascota = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    FechaNacimiento = table.Column<DateTime>(type: "datetime2", nullable: false),
                     EdadMascota = table.Column<int>(type: "int", nullable: false),
                     IdPropietario = table.Column<int>(type: "int", nullable: false),
+                    Especie = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     raza = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     peso = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
@@ -66,6 +68,8 @@ namespace Veterinaria.App.Persistencia.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    TipoDocumento = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    NumeroDocumento = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Telefono = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Edad = table.Column<int>(type: "int", nullable: false),

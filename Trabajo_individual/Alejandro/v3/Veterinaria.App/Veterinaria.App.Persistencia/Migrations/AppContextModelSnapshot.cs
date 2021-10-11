@@ -89,6 +89,12 @@ namespace Veterinaria.App.Persistencia.Migrations
                     b.Property<int>("EdadMascota")
                         .HasColumnType("int");
 
+                    b.Property<string>("Especie")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaNacimiento")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("IdPropietario")
                         .HasColumnType("int");
 
@@ -132,7 +138,13 @@ namespace Veterinaria.App.Persistencia.Migrations
                     b.Property<string>("Nombre")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("NumeroDocumento")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Telefono")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TipoDocumento")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

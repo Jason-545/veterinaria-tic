@@ -10,8 +10,8 @@ using Veterinaria.App.Persistencia;
 namespace Veterinaria.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20210928171512_Initial")]
-    partial class Initial
+    [Migration("20211011020353_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -91,6 +91,12 @@ namespace Veterinaria.App.Persistencia.Migrations
                     b.Property<int>("EdadMascota")
                         .HasColumnType("int");
 
+                    b.Property<string>("Especie")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaNacimiento")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("IdPropietario")
                         .HasColumnType("int");
 
@@ -134,7 +140,13 @@ namespace Veterinaria.App.Persistencia.Migrations
                     b.Property<string>("Nombre")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("NumeroDocumento")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Telefono")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TipoDocumento")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

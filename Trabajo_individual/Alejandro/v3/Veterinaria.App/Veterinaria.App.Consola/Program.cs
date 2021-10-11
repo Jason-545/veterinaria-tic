@@ -22,7 +22,7 @@ namespace Veterinaria.App.Consola
             // -------->CRUD VETERINARIO<---------
 
             //AgregarVeterinario();
-            //EditarVeterinario(4);
+            //EditarVeterinario(2);
             //BuscarVeterinario (4);
             //EliminarVeterinario(1);
 
@@ -63,14 +63,15 @@ namespace Veterinaria.App.Consola
         private static void AgregarVeterinario(){
 
             EntidadVeterinario veterinario = new EntidadVeterinario{
-
+                TipoDocumento = "CC",
+                NumeroDocumento = "65532",
                 Nombre = "Diana",
                 Telefono = "2222222",
                 Edad = 28,
                 Correo = "Diana@gmail.com",
                 Contraseña = " fffsfs",
                 FechaRegistro = new DateTime(2021,01,14),
-                Especializacion = "Prueba",
+                Especializacion = "TEFSD",
                 TarjetaProfesional = " sfsdfs"
 
             };
@@ -82,9 +83,16 @@ namespace Veterinaria.App.Consola
         private static void EditarVeterinario(int idVeterinario){
             EntidadVeterinario veterinario = new EntidadVeterinario{
                 Id = idVeterinario,
+                TipoDocumento = "CE",
+                NumeroDocumento ="66872",
                 Nombre = "Tatiana",
                 Telefono = "4335",
-                Edad = 15
+                Edad = 15,
+                Correo = "PRUEBA@GMAIL.COM",
+                Contraseña = "PRUEBA",
+                FechaRegistro = new DateTime(2021,01,14),
+                Especializacion = "PRUEBA",
+                TarjetaProfesional = "PRUEBA"
             };
         repoVeterinario.EditarVeterinario(veterinario);
         }
@@ -108,12 +116,14 @@ namespace Veterinaria.App.Consola
 
             EntidadCliente cliente = new EntidadCliente{
 
-                Nombre = "Carmen",
-                Telefono = "3333331",
-                Edad = 15,
-                Correo = "Carmen@gmail.com",
-                Contraseña = " rfsdf",
-                FechaRegistro = new DateTime(2021,05,14)
+                TipoDocumento = "CC",
+                NumeroDocumento = "65532",
+                Nombre = "Diana",
+                Telefono = "2222222",
+                Edad = 28,
+                Correo = "Diana@gmail.com",
+                Contraseña = " fffsfs",
+                FechaRegistro = new DateTime(2021,01,14)
                 
 
             };
@@ -125,9 +135,14 @@ namespace Veterinaria.App.Consola
         private static void EditarCliente(int idCliente){
             EntidadCliente cliente = new EntidadCliente{
                 Id = idCliente,
+                TipoDocumento = "CE",
+                NumeroDocumento ="66872",
                 Nombre = "Tatiana",
                 Telefono = "4335",
-                Edad = 15
+                Edad = 15,
+                Correo = "PRUEBA@GMAIL.COM",
+                Contraseña = "PRUEBA",
+                FechaRegistro = new DateTime(2021,01,14)
             };
         repoCliente.EditarCliente(cliente);
         }
@@ -153,8 +168,10 @@ namespace Veterinaria.App.Consola
             EntidadMascota mascota = new EntidadMascota{
 
                 NombreMascota = "Max",
+                FechaNacimiento = new DateTime(2021,01,14),
                 EdadMascota = 6,
-                IdPropietario = 3,
+                IdPropietario = 1,
+                Especie = "Gato",
                 raza = "Criollo",
                 peso = "20 kg"
 
@@ -169,8 +186,11 @@ namespace Veterinaria.App.Consola
             EntidadMascota mascota = new EntidadMascota{
                 Id = idMascota,
                 NombreMascota = "Rolly",
+                FechaNacimiento = new DateTime(2011,01,14),
                 EdadMascota = 15,
-                raza = "Perza"
+                Especie = "Perro",
+                raza = "Perza",
+                peso = "50 kg"
             };
         repoMascota.EditarMascota(mascota);
         }
